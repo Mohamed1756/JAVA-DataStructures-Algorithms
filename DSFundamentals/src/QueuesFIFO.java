@@ -11,9 +11,9 @@ public class QueuesFIFO {
         Queue <String> namesList = new LinkedList<String>();
 
         namesList.add("Adam");
-        namesList.add("Ayub");
+        namesList.add("Alex");
         namesList.add("Mohamed");
-        namesList.add("Abdi");
+        namesList.add("Andy");
 
         System.out.println(namesList);
         namesList.poll();  // removes FIFO
